@@ -96,7 +96,7 @@ body {
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
-@media (min-width: 768px) {
+@media (min-width: 200px) {
   /* Navbar positioning foo */
   .navbar-wrapper {
     margin-top: 20px;
@@ -112,7 +112,7 @@ body {
 
   /* The navbar becomes detached from the top, so we round the corners */
   .navbar-wrapper .navbar {
-    border-radius: 4px;
+    border-radius: 20px;
   }
 
   /* Bump up size of carousel content */
