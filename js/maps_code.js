@@ -1,6 +1,6 @@
 var geocoder;
 var map;
-var address = "San Diego, CA";
+var news = JSON.parse(http://api.nytimes.com/svc/mostpopular/v2/mostshared/all-sections/1.json?api-key=0511377bcc9608cdaa419dfaf84e28f6%3A16%3A71882589);
 
 function initialize() {
   geocoder = new google.maps.Geocoder();
